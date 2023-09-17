@@ -1,0 +1,24 @@
+<div class="table-container">
+  <table class="summary-table">
+    <thead>
+      <tr>
+        <th>Continent Name</th>
+        <th>Region Name</th>
+        <th>Country Name</th>
+        <th>Year</th>
+        <th>Population</th>
+        <th>GDP</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let sum of summary">
+        <td>{{ sum.continent }}</td>
+        <td>{{ sum.region }}</td>
+        <td>{{ sum.country }}</td>
+        <td>{{ sum.year }}</td>
+        <td>{{ sum.population }}</td>
+        <td>{{ sum.gdp }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

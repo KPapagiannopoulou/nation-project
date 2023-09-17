@@ -1,0 +1,19 @@
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.country-stats-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+  .country-stats-table th, .country-stats-table td {
+    border: 1px solid #dddddd; /* Add borders around cells */
+    padding: 8px;
+    text-align: left;
+  }
+
+  .country-stats-table th {
+    background-color: #f2f2f2; /* Header background color */
+  }
